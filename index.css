@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  .container{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: lightpink;
+  }
+  .subcontainer{
+    width:30%;
+    /* height:90vh; */
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-bottom:2%;
+  }
+  .header{
+    width: 100%;
+    padding:3% 0% 3% 0%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .bill{
+    font-family: Arial;
+    margin:45px 0px 5px 12px; 
+  }
+  .money{
+    font-size:20px;
+    font-weight:bold;
+    font-family:arial;
+    margin:0px 10px 10px 12px;
+  }
+  #billPay{
+    padding:1.5%;
+    border-radius: 5px;
+    margin-top:10px;
+    width:75%;
+  }
+  .service{
+    font-family:arial;
+    margin: 20px 0px 10px 12px;
+  }
+  
+  .choose{
+    padding:1.5% 2%;
+    width:75%;
+    border-radius:5px;
+  }
+  .center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .share{
+    margin:70px 0px 0px 12px;
+    font-family:arial;
+  }
+  #people{
+    padding:1.5%;
+    width:75%;
+    margin-top:12px;
+    border-radius:5px;
+  }
+  .men{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .btn > button{
+    padding:1.5%;
+    background-color:tomato;
+    border-radius:5px;
+    color:white;
+    margin-top:15px;
+  }
+  .amount{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  @media screen and (max-width:800px) {
+        .subcontainer{
+           width: 90%;
+        }
+  } 
